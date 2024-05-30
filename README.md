@@ -28,10 +28,10 @@ The Flutter Text widget dynamically adjusts its size to fit the screen dimension
 | Parameter | Description |
 |---|---|
 | `key`* | Controls how one widget replaces another widget in the tree. |
-| `text` | Sets the key for the resulting `Text` widget |
+| `text`* | Sets the key for the resulting `Text` widget |
 | `size`* | The size to use for this font size |
-| `color`* | If non-null, the color to use for this text style |
-| `fontWeight`* | The fontweight of the text. This decides how text render. |
-| `textDirection`* | The directionality of the text. This decides how `textAlign` values like `TextAlign.start` and `TextAlign.end` are interpreted. |
+| `color` | If non-null, the color to use for this text style |
+| `fontWeight` | The fontweight of the text. This decides how text render. |
+| `textDirection` | The directionality of the text. This decides how `textAlign` values like `TextAlign.start` and `TextAlign.end` are interpreted. |
 
 Parameters marked with \* behave exactly the same as in `Text`
