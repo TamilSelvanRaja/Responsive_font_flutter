@@ -1,4 +1,4 @@
-part of responsive_fonts;
+part of '../responsive_fonts.dart';
 
 class ResponsiveFonts extends StatelessWidget {
   const ResponsiveFonts({super.key, required this.text, required this.size, this.color, this.decoration, this.fontWeight});
@@ -21,8 +21,8 @@ class ResponsiveFonts extends StatelessWidget {
   }
 
   double getProportionateScreenWidth(BuildContext context, double inputWidth) {
-    MediaQueryData _mediaQueryData = MediaQuery.of(context);
-    double screenWidth = _mediaQueryData.size.width;
+    MediaQueryData mediaQueryData = MediaQuery.of(context);
+    double screenWidth = mediaQueryData.size.width;
     return (inputWidth / 375.0) * screenWidth;
   }
 }

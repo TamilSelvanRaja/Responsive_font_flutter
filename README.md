@@ -1,4 +1,4 @@
-# Responsive Fonts
+# responsive_fonts
 
 The Flutter Text widget dynamically adjusts its size to fit the screen dimensions.
 
@@ -11,7 +11,7 @@ The Flutter Text widget dynamically adjusts its size to fit the screen dimension
 
 ## Usage
 
-`Responsive Fonts` behaves exactly like a `Text`. The only difference is that it resizes text to fit the screen dimensions.
+`responsive_fonts` behaves exactly like a `Text`. The only difference is that it resizes text to fit the screen dimensions.
 
 ```dart
  ResponsiveFonts(text: "Hello World", size: 20),
