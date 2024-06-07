@@ -37,14 +37,16 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.text),
       ),
       body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            ResponsiveFonts(text: "Hello World", size: 20),
-            ResponsiveFonts(text: "Hello World", size: 25, color: Colors.red),
-            ResponsiveFonts(text: "Hello World", size: 30, decoration: TextDecoration.underline, color: Colors.blue),
-            ResponsiveFonts(text: "Hello World", size: 35, color: Colors.blue, fontWeight: FontWeight.bold),
-          ],
+        child: Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              ResponsiveFonts(text: "Hello Worldsdjgskdghsj kdsgjdsgdhsd ghsjkdhksdh sjdskjdhsk dhdhjsdhsdhsjd", size: 20, textalignment: TextAlign.center, overflow: TextOverflow.ellipsis),
+              ResponsiveFonts(text: "Hello World", size: 25, color: Colors.red),
+              ResponsiveFonts(text: "Hello World", size: 30, decoration: TextDecoration.underline, color: Colors.blue),
+              ResponsiveFonts(text: "Hello ", size: 35, color: Colors.blue, fontWeight: FontWeight.bold),
+            ],
+          ),
         ),
       ),
     );
