@@ -41,8 +41,19 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: EdgeInsets.all(8.0),
           child: Column(
             children: [
-              ResponsiveFonts(text: "Hello Worldsdjgskdghsj kdsgjdsgdhsd ghsjkdhksdh sjdskjdhsk dhdhjsdhsdhsjd", size: 20, textalignment: TextAlign.center, overflow: TextOverflow.ellipsis),
-              ResponsiveFonts(text: "Hello World", size: 25, color: Colors.red),
+              ResponsiveFonts(
+                text: "Hello Iam Tamilselvan",
+                size: 20,
+                textalignment: TextAlign.center,
+                overflow: TextOverflow.ellipsis,
+                fontFamily: "Poppins",
+              ),
+              ResponsiveFonts(
+                text: "Hello Iam Tamilselvan",
+                size: 20,
+                textalignment: TextAlign.center,
+                overflow: TextOverflow.ellipsis,
+              ),
               ResponsiveFonts(text: "Hello World", size: 30, decoration: TextDecoration.underline, color: Colors.blue),
               ResponsiveFonts(text: "Hello ", size: 35, color: Colors.blue, fontWeight: FontWeight.bold),
             ],

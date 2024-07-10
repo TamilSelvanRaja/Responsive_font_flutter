@@ -1,6 +1,6 @@
 name: responsive_fonts
 description: "The Flutter Text widget dynamically adjusts its size to fit the screen dimensions like (Mobiles, Windows, Web)."
-version: 0.0.3
+version: 1.0.0
 homepage: https://github.com/TamilSelvanRaja/Responsive_font_flutter.git
 
 environment:
